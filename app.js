@@ -2,7 +2,7 @@ import fs from "fs";
 import PromptSync from "prompt-sync";
 import axios from "axios";
 const prompt = PromptSync();
-const apiKey = "ALOC-9f6b088ca235a639f437";
+const apiKey = "ALOC-78bfe77b49fb3e407bf8";
 
 let fetchQuestion = async (subject = "english", year = 2005) => {
   try {
